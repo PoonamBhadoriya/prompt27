@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: merienda;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    /* background: transparent; */
+}
+
+.nav>.logo>h2>span{
+    color: aqua;
+}
+
+.nav>.items{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav>.items>p:hover{
+     color:rgb(91, 91, 254);
+     /* text-decoration: underline; */
+     cursor: pointer;
+}
+.nav>.btn>button{
+    padding: 5px 10px;
+    /* border: 1px solid aqua; */
+    background: transparent ;
+    color: white;
+    border-radius: 8px;
+}
+.nav>.btn>button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+}
+.content>.left{
+    width: 30%;
+    background-color:black;
+}
+.content>.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: white; */
+}
+.profile{
+    background-color: white;
+    margin: 20px;
+    height: 70%;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    
+}
+.profile>img{
+    padding: 20px;
+    border-radius: 40px;
+}
+.profile>p{
+    margin-top: 30px;
+}
+.left>button{
+    margin-top: 30px;
+    width: 250px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    background-color: rgb(66, 63, 63);
+    color: white;
+    font-size: 20px;
+    
+}
+.left>button>i{
+    padding: 5px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.content>.right{
+    width: 70%;
+    height: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-right: 160px;
+
+}
+.right>.rgt-heading>h1{
+    font-size: 90px;
+    font-family: montserrat;
+    color: white;
+    line-height: 80px;
+    margin-top: 50px;
+
+}
+.rgt-heading>h1>span{
+    font-size: 90px;
+    font-family: montserrat;
+    color:grey;
+}
+.rgt-heading>p{
+    margin-top: 20px;
+    width: 50%;
+    color: rgb(197, 194, 194);
+}
+.right>.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons>div>i{
+    font-size: 28px;
+    color: white;
+    margin-top: 10px;
+}
+.right>.box{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.box>.box1{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.box1>i{
+   font-size: 35px;
+}
+.box1>h3{
+    margin-top: 15px;
+}
+.box>.box2{
+    width: 300px;
+    height: 200px;
+    background-color: greenyellow;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.box2>i{
+    font-size: 35px;
+ }
+ .box2>h3{
+     margin-top: 15px;
+ }
+ .custom{
+    display: flex;
+ }
+ .custom>.text{
+    margin-top: 20px;
+
+ }
+ .custom>.text>h2{
+     font-size: 30px;
+     color: white;
+ }
+ .custom>.text>p{
+    margin-top: 10px;
+    width: 400px;
+    color: rgb(197, 194, 194);
+
+ }
+ .custom>.btn{
+    margin-top: 30px;
+
+ }
+ .custom>.btn>button{
+    margin: 10px;
+    padding: 6px;
+    border-radius: 15px;
+    border: none;
+    
+ }
